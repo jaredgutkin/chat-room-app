@@ -23,6 +23,7 @@ const botName = 'Hammy'
 
 //run when client connects
 io.on('connection', socket => {
+
     socket.on('joinRoom', ({ username, room }) => {
         const user = userJoin(socket.id, username, room)
 

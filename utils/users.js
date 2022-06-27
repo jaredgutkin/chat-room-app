@@ -1,4 +1,4 @@
-const users = []
+const users = [];
 
 //join user to chat
 function userJoin(id, username, room) {
@@ -7,6 +7,7 @@ function userJoin(id, username, room) {
     users.push(user)
 
     return user
+    
 }
 
 //get current user
